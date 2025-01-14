@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.milo.birdapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/whatsapp_image_2023_09_27_at_8_02_48_am"
+        android:label="Bird Buddy"
+        android:roundIcon="@drawable/whatsapp_image_2023_09_27_at_8_02_48_am"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".Achievements"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".Bird_List"
+            android:exported="false" />
+        <activity
+            android:name=".Pigeon"
+            android:exported="false" />
+        <activity
+            android:name=".Toucan"
+            android:exported="false" />
+        <activity
+            android:name=".Owl"
+            android:exported="false" />
+        <activity
+            android:name=".Weaver"
+            android:exported="false" />
+        <activity
+            android:name=".Peacock"
+            android:exported="false" />
+        <activity
+            android:name=".Kingfisher"
+            android:exported="false" />
+        <activity
+            android:name=".List"
+            android:exported="false" />
+        <activity
+            android:name=".BirdList"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".View"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MarkBirdLocationActivity"
+            android:label="@string/title_activity_mark_bird_location" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

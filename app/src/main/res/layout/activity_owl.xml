@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6D692"
+    tools:context=".Owl">
+
+    <TextView
+        android:id="@+id/Owl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owl"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="296dp"
+        android:layout_height="265dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Owl"
+        app:srcCompat="@drawable/owl" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="360dp"
+        android:layout_height="298dp"
+        android:text="A small gray squirrel watches it's step carefully as it passes through the deep woodlands of New England. The squirrel tries hard not to make a sound as it places its feet gently on the dry leaves. He believes he is safe. However, he thought wrong, just as he starts to climb a tree he feels a strong wind. He turns around and faces a huge bird. The bird has huge wings, sharp beak, piercing talons and the squirrel knows that he has just encountered New England's Dominating Bird: The Eastern Screech Owl --- The Eastern Screech Owl has always been a bird that is a danger to animals smaller than itself. From adaptations, to symbiosis, to fierce competition, hidden habitats and all the way to vivid physical descriptions, the Eastern Screech Owl has definitely gave itself the name New England's Dominating Bird. Megascops asio, Eastern Screech Owl, dominating bird, or whatever you call it, the Eastern Screech Owl is definitely audacious animal."
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.115" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

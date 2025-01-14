@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6D692"
+    tools:context=".Weaver">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weaver"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="349dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/weaver" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="360dp"
+        android:layout_height="307dp"
+        android:text="There are many remarkable birds in the world. We have already discussed some of them. Today we will discuss the &quot;Weaver bird&quot;; who gets its name from the fact that it weaves its nest together most artistically from Palm leaves. The &quot;Weaver bird&quot; lives in the hot areas of Africa, near the Equator. It has black and yellow feathers, and is a member of the &quot;Cuckoo' family. Its nest is outstanding in many ways; First of all, the weaving itself is very artistic. It is actually a nest within a nest, with the entrance at the bottom. By this method the &quot;weaver&quot; assures itself of two things. Firstly, its house is protected from the rain. As you probably know, the area where the &quot;Weaver&quot; lives receives a large amount of rain in the rainy season."
+        android:textColor="#9C27B0"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.188" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

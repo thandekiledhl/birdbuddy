@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6D692"
+    tools:context=".Peacock">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="198dp"
+        android:layout_height="57dp"
+        android:text="Peacock"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="347dp"
+        android:layout_height="263dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/peacock" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="372dp"
+        android:layout_height="303dp"
+        android:text="With the three different species worldwide, the peacock, also known as the peafowl, lives naturally in Africa, Australia and parts of Asia. The medium sized, exotic bird is one of the most recognizable animals on the planet for its distinctive physical features. It spends much of its time on the ground in search of grains, seeds and insects. Peacocks can live up to 20 years old and are one of the more prized game birds in the world.
+TAIL FEATHER TRAIN. The male peacock's plumage accounts for more than 60 percent of its total body length. It can reach more than six feet. Males fan their feathers when trying to court females and also in defense against male counterparts. Females peacocks, also known as peahens, often select mates depending on the size of that tail fan. Peacocks shed feathers during molting season, giving opportunity for collection."
+        android:textColor="#9C27B0"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

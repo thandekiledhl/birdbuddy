@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6D692"
+    tools:context=".Toucan">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toucan"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="330dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:srcCompat="@drawable/toucan" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="387dp"
+        android:layout_height="292dp"
+        android:textColor="#9C27B0"
+        android:text="Measuring 63.5 cm (25 in.) in length, the toco toucan is the largest of all toucans. Its black body and white throat are overshadowed by its most recognizable trait: a large colorful beak.
+The bright orange beak is about 19 cm (8 in.) long - one third of the bird's total length. But despite its substantial size, the beak weighs less than you may think. Composed of the protein keratin, the structure of beak incorporates many air pockets allowing for a very low mass.
+oco toucans also use their beaks to pluck and peel fruit, their main source of food. In addition, the beak houses a flat tongue of the same length, which helps the toucan catch insects, frogs, and reptiles. Toco toucans also occasionally eat the eggs of other birds.
+Toco toucan Although they spend a lot of time in trees, they are not very good at flying. Toucans mainly travel among trees by hopping. When they do take flight, they flap their wings vigorously and glide, traveling only short distances. Toucans nest in the hollows of trees"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

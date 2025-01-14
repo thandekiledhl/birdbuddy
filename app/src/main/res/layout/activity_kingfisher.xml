@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6D692"
+    tools:context=".Kingfisher">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:text="Kingfisher"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/kingfisher" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="387dp"
+        android:layout_height="239dp"
+        android:textColor="#9C27B0"
+        android:text="Kingfishers are small birds of the order Coraciformes. There are about 90 species, mostly in the Old World and Australasia, Most species are tropical in distribution. Their feathers are often bright colours, such as blue or orange. They have large heads, long, sharp bills, short legs, and stubby tails. Most species have bright plumage with little differences between the sexes. Most are found only in forests. They eat a wide range of prey, including fish. They usually catch prey by swooping down from a perch. Many live near rivers and eat fish, but most species live away from water and eat small invertebrates. Like other members of their order they nest in holes, usually tunnels dug into the natural or artificial banks in the ground. A quarter of all kingfishers nest in disused termite nests."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.222" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

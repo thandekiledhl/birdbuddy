@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6D692"
+    tools:context=".Pigeon">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pigeon"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="340dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/pigeon" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="366dp"
+        android:layout_height="264dp"
+        android:text="The Body is spindle shaped. Their size varies from 20-25 cm. They are covered by coloured feathers leaving beak and a small portion of the hindlimbs.
+The body is divisible into head, neck, trunk and a small, conical tail. The head is round and drawn out anteriorly into a strong, hard, pointed beak. The mouth is a terminal wide gape, guarded by elongated upper and lower beaks. The beaks are covered with a horny sheath or rhampotheca. A swollen area of soft skin, the cere, surrounds the nostril. It is present on each side of the upper beak. The eyes are large and guarded by upper and lower eye-lidsand a transparent nictitating membrane. A pair of ear openings are situated at a short distance behind the eyes. Each opening leads into a short external auditory meatus, ending in the tympanic membrane forming the ear drum."
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.273" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
